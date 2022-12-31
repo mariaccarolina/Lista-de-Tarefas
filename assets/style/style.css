@@ -11,6 +11,7 @@
 h1 {
     font-size: 24px;
     color: #a20ba2;
+    text-align: center;
 }
 
 input,
@@ -37,14 +38,10 @@ button {
     justify-content: center;
     background-color: black;
     height: 100vh;
+    width: 100vw;
 }
 
-.list-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+
 
 .tarefaAdd {
     height: 2rem;
@@ -61,12 +58,15 @@ button {
     width: 1.5rem;
     height: 1rem;
     border: none;
+}
 
+.tarefas {
+    text-align: center;
 }
 
 
 @media screen and (max-width:415px) {
-    .list-container{
+    .list-container {
         margin: 20px;
     }
 }
