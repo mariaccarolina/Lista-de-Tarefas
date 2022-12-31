@@ -54,9 +54,10 @@ button {
 
 .apagar {
     background-color: rgb(120, 29, 29);
-    width: 1.5rem;
-    height: 1rem;
+    width: 2rem;
+    height: 1.5rem;
     border: none;
+    margin: 10px;
 }
 
 .tarefas {
